@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="6" by="lint 7.1.0" type="baseline" client="gradle" dependencies="false" name="AGP (7.1.0)" variant="fatal" version="7.1.0">
+
+    <issue
+        id="UnknownId"
+        message="The id &quot;`imageView5`&quot; is not defined anywhere. Did you mean one of {imageView, imageView2, imageView3, imageView4, imageView6, imageView7} ?"
+        errorLine1="        app:layout_constraintBottom_toBottomOf=&quot;@+id/imageView5&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="43"
+            column="9"/>
+    </issue>
+
+</issues>
